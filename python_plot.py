@@ -8,7 +8,7 @@ This is a temporary script file.
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0,2*np.pi,100)
+x = np.linspace(0,2*np.pi,1000)
 f, ax = plt.subplots()
 ax.plot(x,np.cos(x))
 ax.set_xlabel('x')
